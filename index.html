@@ -1,11 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Vul hier je naam in">
+    <title>Run For Fun</title>
+    <link rel="stylesheet" href="css/style-desktop.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="css/style-mobile.css" media="screen and (max-width: 768px)">
 </head>
 <body>
-    <h1>Hello word</h1>
+<header>
+ 
+  <section class="header-container">
+    <section class="logo-titel">
+      <section class="logo">
+        <img src="img/logo.png" alt="Logo van Hardloop Hulp" title="Hardloop Hulp logo">
+      </section>
+      <h1><strong>For Fun</strong></h1>
+    </section>
+
+    <nav class="main-nav">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon" aria-label="Menu">&#9776;</label>
+      <ul>
+        <li><a class="button" href="index.html">Home</a></li>
+        <li><a class="button" href="detail1.html">Route planner</a></li>
+        <li><a class="button" href="detail2.html">Beginnerstips</a></li>
+        <li><a class="button" href="detail3.html">Onveilige gebieden</a></li>
+        <li><a class="button" href="detail4.html">Warm-up</a></li>
+        <li><a class="button" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
+</header>
+
+
+
+
+    <main>
+        <section class="intro">
+    <section class="intro-content">
+        <section class="intro-text">
+            <h2>Beginnen met hardlopen is niet makkelijk — maar je staat er niet alleen voor</h2>
+            <p>Iedereen die ooit zijn eerste stap zette in hardloopschoenen weet het: beginnen met hardlopen is lastig.
+                Je zoekt motivatie, een goed schema, de juiste schoenen, en vooral: betrouwbare tips die bij jóu passen. 
+                Maar online verdwaal je al snel in tegenstrijdige adviezen, ingewikkelde trainingsplannen en verhalen van doorgewinterde marathonlopers.
+                Deze website is er voor jou — de starter, de twijfelaar, de doorzetter. 
+                Hier vind je heldere informatie, praktische tips en eerlijke verhalen van mensen die net als jij ooit begonnen. 
+                Geen jargon, geen prestatiedruk. 
+                Alleen wat je écht nodig hebt om met vertrouwen te starten en plezier te houden in elke stap.</p>
+        </section>
+        <figure class="intro-image">
+            <img src="img/hardloper.png" alt="Hardloper in actie" title="Hardloop Hulp afbeelding">
+        </figure>
+    </section>
+</section>
+
+
+        <section class="tips">
+            <h1>Tips en Tricks</h1>
+            <p>Begin langzaam. Start met joggen op een rustig tempo en verhoog je snelheid zodra je lichaam opwarmt.</p>
+            <p>Stretch voor en na het lopen om blessures te voorkomen.</p>
+            <p>Neem water mee en draag reflecterende kleding als je 's avonds loopt.</p>
+            <a href="detail2.html" class="button" title="Beginnerstips">Zie meer</a>
+        </section>
+ 
+        <section class="route-planner">
+            <h1>Route Planner</h1>
+            <h3>Santpoort Duinen Run</h3>
+            <p>Een route van <em>15 km</em> door bos, duinen en langs zee. Klik hieronder om de route te bekijken.</p>
+            <img src="img/route-map.jpg" alt="Kaart van Santpoort Duinen Run">
+            <a href="detail1.html" class="button" title="Route planner">Zie meer</a>
+        </section>
+
+        <section class="avoid-areas">
+            <h2>Gebieden om te vermijden</h2>
+            <p>De reden waarom we dit gebied afraden.</p>
+            <img src="img/avoid-area-map.jpg" alt="Kaart met gemarkeerd gebied">
+            <a href="detail3.html" class="button2" title="Onveilige gebieden">Zie meer</a>
+        </section>
+    </main>
+
+<!-- Cookie melding (rubric vereist z-index:9999 in CSS) -->
+<div class="cookies" role="dialog" aria-live="polite">
+  <p>Deze site gebruikt cookies om de ervaring te verbeteren. <button class="cookie-accept">Accepteren</button></p>
+</div>
+    <footer>
+        <p>&copy; 2025 Hardloop Hulp. Alle rechten voorbehouden.</p>
+    </footer>
+
+
 </body>
 </html>

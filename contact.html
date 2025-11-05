@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+      <meta name="author" content="Vul hier je naam in">
+    <title>Run For Fun</title>
+           <link  rel="stylesheet" href="css/style-desktop.css" media="screen and (min-width: 769px)">
+<link  rel="stylesheet" href="css/style-mobile.css" media="screen and (max-width: 768px)">
+</head>
+<body>
+  <header>
+ 
+  <section class="header-container">
+    <section class="logo-titel">
+      <section class="logo">
+        <img src="img/logo.png" alt="Logo van Hardloop Hulp" title="Hardloop Hulp logo">
+      </section>
+      <h1><strong>For Fun</strong></h1>
+    </section>
+
+    <nav class="main-nav">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon" aria-label="Menu">&#9776;</label>
+      <ul>
+        <li><a class="button" href="index.html">Home</a></li>
+        <li><a class="button" href="detail1.html">Route planner</a></li>
+        <li><a class="button" href="detail2.html">Beginnerstips</a></li>
+        <li><a class="button" href="detail3.html">Onveilige gebieden</a></li>
+        <li><a class="button" href="detail4.html">Warm-up</a></li>
+        <li><a class="button" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
+</header>
+ <main>
+  <h1 class="page-title">Contact</h1>
+
+  <section class="contact-wrapper">
+    <section class="contact-card">
+      <h2>Contactgegevens</h2>
+      <ul>
+        <li><strong>Naam:</strong> Finn Tesselaar</li>
+        <li><strong>Email:</strong> <a href="mailto:744504@student.inholland.nl">744504@student.inholland.nl</a></li>
+        <li><strong>Telefoon:</strong> <a href="tel:+31612345678">+31 6 12345678</a></li>
+      </ul>
+    </section>
+
+    <form method="post" action="https://next-app-router-playground-kohl.vercel.app/api/contact" class="contact-form">
+      <fieldset>
+        <legend>Stuur een bericht</legend>
+
+        <label for="name">Naam</label>
+        <input id="name" type="text" name="name" required placeholder="Typ hier je naam" />
+
+        <label for="email">Email</label>
+        <input id="email" type="email" value="email" name="email" required placeholder="Typ hier je email" />
+
+        <label for="message">Bericht</label>
+        <textarea id="message" name="message" required placeholder="Typ hier je bericht"></textarea>
+
+        <section class="form-actions">
+          <button class="form-button" type="submit">Verstuur</button>
+        </section>
+      </fieldset>
+    </form>
+  </section>
+</main>
+
+
+<footer>
+  <p>&copy; 2025 Hardloop Hulp. Alle rechten voorbehouden.</p>
+</footer>
+
+</body>
+</html>
