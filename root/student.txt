@@ -2,4 +2,10 @@ o	Student name: Finn Tesselaar
 o	Student number: 744504 
 o	Student class: Inf B1 
 o	GitHub Repository: https://github.com/FnnTesselaar/my-new-repo
-o	GitHub Pages URL: your github pages URL* 
+o	GitHub Pages URL: 
+index.html: https://github.com/FnnTesselaar/my-new-repo/blob/main/root/detail4.html
+detail1.html: https://github.com/FnnTesselaar/my-new-repo/blob/main/root/detail1.html
+detail2.html: https://github.com/FnnTesselaar/my-new-repo/blob/main/root/detail2.html
+detail3.html: https://github.com/FnnTesselaar/my-new-repo/blob/main/root/detail3.html
+detail4.html: https://github.com/FnnTesselaar/my-new-repo/blob/main/root/detail4.html
+contact.html: https://github.com/FnnTesselaar/my-new-repo/blob/main/root/contact.html
